@@ -7,7 +7,7 @@ int main(void)
 	int b = get_int("b= ");
 
 	// type casting
-	float x = (float) a / (float) b;
+	double x = (double) a / (double) b;
 
 	printf("a / b = %.20f", x);
 }
